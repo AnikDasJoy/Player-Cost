@@ -26,7 +26,107 @@
             </div>
             <img class="ball" src="images/football.png" alt="">
         </div>
+
+        <section class="mt-12">
+            <div class="grid grid-cols-4 gap-3 w-9/12 mx-auto text-white">
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <img src="images/download.jpg" alt="">
+                    <h4 class="text-2xl mt-2 font-medium pl-4 ">Lionel Messi</h4>
+                    <button id="btn-messi"
+                        class="ml-6 pl-5 bg-blue-800 px-6 py-2 text-white rounded-lg mt-4 font-semibold hover:bg-blue-600 ">SELECT</button>
+                </div>
+
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <img src="images/images (1).jpg" alt="">
+                    <h4 class="text-2xl mt-2 font-medium pl-4">Neymar Jr</h4>
+                    <button id="btn-Neymar"
+                        class="ml-6 pl-5 bg-blue-800 px-6 py-2 text-white rounded-lg mt-4 font-semibold hover:bg-blue-600 ">SELECT</button>
+                </div>
+
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <img src="images/mbappe-clermont.jpg" alt="">
+                    <h4 class="text-2xl mt-2 font-medium pl-4">Kylian Mbappé</h4>
+                    <button id="btn-Mbappé"
+                        class="ml-6 pl-5 bg-blue-800 px-6 py-2 text-white rounded-lg mt-4 font-semibold hover:bg-blue-600 ">SELECT</button>
+                </div>
+
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <h2 class="text-2xl font-medium text-center">Selected-V</h2>
+
+                    <section class="p-2">
+                        <ul id="list-container">
+                            <li class="item">Lionel Messi</li>
+
+                        </ul>
+                    </section>
+
+                </div>
+
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <img src="images/hero_22-23-vitinha.png" alt="">
+                    <h4 class="text-2xl mt-2 font-bold pl-4 mt-6 pl-8"> Vítor Machado</h4>
+                    <button id="btn-Vítor"
+                        class="ml-6 pl-5 bg-blue-800 px-6 py-2 text-white rounded-lg mt-4 font-semibold hover:bg-blue-600 ">SELECT</button>
+                </div>
+
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <img src="images/download1.jpg" alt="">
+                    <h4 class="text-2xl mt-2 font-medium pl-4">Sergio Ramos</h4>
+                    <button id="btn-Ramos"
+                        class="ml-6 pl-5 bg-blue-800 px-6 py-2 text-white rounded-lg mt-4 font-semibold hover:bg-blue-600 ">SELECT</button>
+                </div>
+
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <img src="images/download2.jpg" alt="">
+                    <h4 class="text-2xl mt-2 font-medium pl-4">Renato Sanches</h4>
+                    <button id="btn-Renato"
+                        class="ml-6 pl-5 bg-blue-800 px-6 py-2 text-white rounded-lg mt-4 font-semibold hover:bg-blue-600 ">SELECT</button>
+                </div>
+
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <h2 class="text-2xl font-medium text-center">Budget</h2>
+                    <div class="grid grid-cols-1 gap-12 mx-auto text-white">
+                        <div>
+                            <div class="mt-4 grid grid-cols-2 gap-5 ">
+                                <h3 class="text 4xl">Per Player:</h3>
+                                <h2 class="text-1xl">$<span id="per-player">1000</span></h2>
+                            </div>
+                            <button id="player-cost"
+                                class="bg-amber-600 hover:bg-sky-700 px-8 py-2 rounded-xl mt-2">Calculate</button>
+
+                            <div class="mt-4 grid grid-cols-2 gap-1 mt-6">
+                                <h3 class="text 1xl">Player Expenses:</h3>
+                                <h2 class="text-2xl">$<span id="player-expense">00</span></h2>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="mt-4 grid grid-cols-2 gap-5 mt-3">
+                                <h3 class="text 4xl">Manager:</h3>
+                                <h2 class="text-1xl">$<span id="manager-total">2000</span></h2>
+                            </div>
+                            <div class="mt-4 grid grid-cols-2 gap-5 ">
+                                <h3 class="text 4xl">Coach:</h3>
+                                <h2 class="text-1xl">$<span id="coach-total">4000</span></h2>
+                            </div>
+                            <button id="coach-cost"
+                                class="bg-amber-600 hover:bg-sky-700 px-8 py-2 rounded-xl mt-2">Calculate
+                                Total</button>
+
+                            <div class="mt-4 grid grid-cols-2 gap-5 ">
+                                <h3 class="text 4xl">Total:</h3>
+                                <h2 class="text-1xl">$<span id="sub-total">00</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
+    <script src="js/selectPlayer.js"></script>
+    <script src="js/utilities.js"></script>
+    <script src="js/budget.js"></script>
 </body>
 
 </html>
